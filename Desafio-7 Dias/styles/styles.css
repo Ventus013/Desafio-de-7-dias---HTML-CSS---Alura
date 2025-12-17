@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-letras-principal: #101828;
+    --cor-letras-secundaria: #667085;
+    --cor-vermelho: #8e2424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+    text-decoration: none;
+    color: var(--cor-letras-secundaria);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 10rem;
+}
+
+.navegacao a {
+    color: var(--cor-letras-secundaria);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 10rem;
+    color: var(--cor-letras-secundaria);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cadastrar {
+    background-color: var(--cor-vermelho);
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 11rem 21rem;
+    text-align: center;
+    color: var(--cor-letras-secundaria);
+}
+
+.about span {
+    color: var(--cor-vermelho);
+    font-weight: 600;
+}
+
+.about h1 {
+    color: var(--cor-letras-principal);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    
+    margin: 7rem;
+}
+
+.cabecalho div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 18rem;
+    height: 12rem;
+}
+
+.cab_number {
+    color: var(--cor-vermelho);
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.cab_sub-t {
+    color: var(--cor-letras-principal);
+    font-size: 1.15rem;
+    margin-top: 0.5rem;
+}
+
+.cabecalho p {
+    font-weight: 400;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.vagas-abertas {
+    background-color: rgba(142, 36, 36, 5%);
+    color: var(--cor-vermelho);
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin-top: 6rem;
+}
+
+.conteudo span {
+    font-size: 2rem;
+    color: var(--cor-letras-principal);
+    font-weight: 600;
+}
+
+.conteudo p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem
+}
+
+.conteudo img {
+    width: 76rem;
+    height: 25rem;
+}
+
+.vagas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 30rem 2rem 30rem;
+    gap: 1.2rem;
+}
+
+.titulo-area {
+    color: var(--cor-letras-principal);
+    font-size: 1.3rem;
+    width: 500;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.titulo-vaga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 236, 240, 1);
+    height: 8rem;
+}
+
+.titulo-texto {
+    color: var(--cor-letras-principal);
+    font-size: 1.1rem;
+    width: 500;
+    margin-left: 5%;
+}
+
+.info {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 5%;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    width: auto;
+    margin: 7rem 11rem 6rem;
+    background-color:rgba(195, 25, 25, 0.03);
+    border-radius: 1rem;
+    padding: 4rem;
+}
+
+.informacoes-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.subtitulo {
+    color: var(--cor-vermelho);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.paragrafo-info {
+    color: var(--cor-letras-principal);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nome-perfil {
+    color: var(--cor-letras-principal);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 2.5rem;
+    padding: 6rem;
+    background-color: rgba(249, 250, 251, 1);
+;
+}
+
+.info-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titulo-rodape {
+    color: var(--cor-letras-principal);
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.rodape-text {
+    color: var(--cor-letras-secundaria);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.campo-resposta {
+    display: flex;
+    gap: 1rem;
+}
+
+.botao-email {
+    border: 1px solid rgba(208, 213, 221, 1);
+    border-radius: 0.5rem;
+    padding: 12px 14px 12px 16px;
+    text-align: left;
+}
